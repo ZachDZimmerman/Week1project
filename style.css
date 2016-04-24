@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+html {
+
+
+}
+body {
+
+}
+header {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+  background-color:rgba(26, 26, 28, 0.89)
+}
+#description{
+
+
+}
+
+article {
+
+}
+section {
+
+}
+header space-between {
+  align-content: space-between;
+}
+span
+
+.nav bar {
+
+}
+ul {
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+
+}
+li {
+
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 1vh;
+  width: 5%;
+
+}
+nav ul {
+  display: flex;
+  text-transform: capitalize;
+
+}
+nav ul li {
+  flex: 1 1 auto;
+  width: 5vw;
+
+}
+
+footer {
+
+}
