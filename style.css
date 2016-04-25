@@ -9,7 +9,7 @@ header {
   height: 7.813rem; /* 125/16 */
   margin-bottom::1.875rem; /* 30/16 */
   padding: 0.188rem; /* 3/16 */ /* 3/16 */
-  background:rgba(26, 26, 28, 0.89)
+  background: rgba(26, 26, 28, 0.89)
 }
 header h1, span {
   margin-bottom: 0;
@@ -71,12 +71,24 @@ section h1 {
   width: 950px;
 }
 .minisection {
-  width: 33%;
+  width: 32%;
   display: inline-block;
   color: grey;
   height: auto;
   line-height: 1.5;
+  margin: 1px;
+}
+.miniimage {
+  float: left;
+  border: 1px solid grey;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
 footer {
-
+  background: #333;
+  color: grey;
+  padding: 20px;
+  margin-top: 150px;
+  text-align: center;
 }
